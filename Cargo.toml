@@ -1,0 +1,10 @@
+[package]
+name = "tnt15-rs"
+description = "Tarantool 1.5 client based on tokio framework"
+authors = ["Denis Zinovyev"]
+license = "MIT"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.14.0", features = ["full"] }
